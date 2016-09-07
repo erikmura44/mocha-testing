@@ -21,7 +21,7 @@ describe('Canary test', function(){
   it('typeof number should be number', function(){
     const number = 2;
 
-    str.should.be.a('number');
+    number.should.be.a('number');
     expect(number).to.be.a('number');
     assert.typeOf(number, 'number');
   });
