@@ -10,12 +10,19 @@ describe('Canary test', function(){
 
     hello.should.be.equal('hello');
   });
-  
+
   it('typeof string should be string', function(){
     const str = 'qowniqn';
 
     str.should.be.a('string');
     expect(str).to.be.a('string');
     assert.typeOf(str, 'string');
+  });
+  it('typeof number should be number', function(){
+    const number = 2;
+
+    str.should.be.a('number');
+    expect(number).to.be.a('number');
+    assert.typeOf(number, 'number');
   });
 });
