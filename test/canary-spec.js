@@ -10,6 +10,7 @@ describe('Canary test', function(){
 
     hello.should.be.equal('hello');
   });
+  
   it('typeof string should be string', function(){
     const str = 'qowniqn';
 
